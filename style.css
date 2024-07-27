@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+header img{
+    height: 30px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+header nav {
+    display: flex;
+    list-style: none;
+}
+
+header nav li{
+    text-decoration: underline;
+}
+
+header nav li a {
+    margin: 7px;
+    font-size: 16px;
+}
+
+.banner {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .banner-content{
+    background-color: black;
+    text-align: center;
+    width: 100%
+}
+
+.tea-header{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item{
+    text-align: center;
+    margin: 0 10px;
+}
+
+.tea-section .menu .item img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.info{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-head{
+    text-align: center;
+}
+
+.info-content-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-content-head .info-content{
+    background-color: black;
+    width: 300px;
+    margin: 15px 40px;
+    text-align: center;
+}
+
+.footer {
+    height:200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.copyright{
+    float: left;
+}
